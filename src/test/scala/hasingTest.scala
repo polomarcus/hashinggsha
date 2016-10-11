@@ -1,10 +1,17 @@
+import java.nio.ByteBuffer
+import java.nio.file.{Files, Paths}
+
 import org.scalatest.WordSpec
+
 import scala.language.implicitConversions
 import com.roundeights.hasher.Implicits._
+
 import scala.language.postfixOps
 
 
 class hashingTest extends WordSpec {
+
+  implicit def magiccast(path: String) : ByteBuffer = ByteBuffer.wrap(Files.readAllBytes(Paths.get(getClass.getResource(path).toURI)))
 
   val hashMe = "Some String"
   val sha1 = hashMe.sha1
@@ -25,7 +32,7 @@ class hashingTest extends WordSpec {
         """.
           stripMargin
 
-      main.hashMeSha256(hashJson)
+      main.parseEvent(hashJson)
 
     }
   }
