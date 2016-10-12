@@ -77,5 +77,8 @@
     <dependency 
     org="io.circe" name="circe-parser_2.11" rev="0.5.1" conf="compile-&gt;default(compile)">
 </dependency>
+    <dependency 
+    org="org.scalamacros" name="paradise_2.11.8" rev="2.1.0" conf="plugin-&gt;default(compile)">
+</dependency>
   </dependencies>
 </ivy-module>

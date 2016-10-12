@@ -2,10 +2,24 @@
 [0m[[0minfo[0m] [0m[32mThe hashing[0m[0m
 [0m[[0minfo[0m] [0m[31m- should be able to encrypt values *** FAILED ***[0m[0m
 [0m[[0minfo[0m] [0m[31m  java.lang.NullPointerException:[0m[0m
-[0m[[0minfo[0m] [0m[31m  at hashingTest.magiccast(hasingTest.scala:14)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at hashingTest$$anonfun$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(hasingTest.scala:35)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at hashingTest$$anonfun$1$$anonfun$apply$mcV$sp$1.apply(hasingTest.scala:22)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at hashingTest$$anonfun$1$$anonfun$apply$mcV$sp$1.apply(hasingTest.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at hashingTest.magiccast(hashingTest.scala:18)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at hashingTest$$anonfun$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(hashingTest.scala:39)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at hashingTest$$anonfun$1$$anonfun$apply$mcV$sp$1.apply(hashingTest.scala:26)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at hashingTest$$anonfun$1$$anonfun$apply$mcV$sp$1.apply(hashingTest.scala:26)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.WordSpecLike$$anon$1.apply(WordSpecLike.scala:953)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32mThe parser[0m[0m
+[0m[[0minfo[0m] [0m[31m- should be able to parse a JSON *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.NullPointerException:[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main$.parseEvent(main.scala:40)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at hashingTest$$anonfun$2$$anonfun$apply$mcV$sp$2.apply$mcV$sp(hashingTest.scala:47)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at hashingTest$$anonfun$2$$anonfun$apply$mcV$sp$2.apply(hashingTest.scala:45)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at hashingTest$$anonfun$2$$anonfun$apply$mcV$sp$2.apply(hashingTest.scala:45)[0m[0m
 [0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
 [0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
 [0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
