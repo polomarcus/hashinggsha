@@ -65,8 +65,8 @@ object main extends App {
   }
 
 
-    /*
-     def hashmeSha256(json: String) = json match {
+
+     def hashmeSha256pm(json: String) = json match {
 
 
        case `publisherId` => publisherId.sha256                                          // Generate hashes
@@ -104,7 +104,7 @@ object main extends App {
      }
 
 
-   */
+
 
     def hashMeSha256(json: String) = {
 
